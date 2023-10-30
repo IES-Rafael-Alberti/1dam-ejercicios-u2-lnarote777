@@ -9,10 +9,20 @@ por el usuario coincide con la guardada en la variable sin tener en cuenta mayú
 
 
 
-"""
-def contraseña():
-    password = str(input("Introduzca contraseña: "))
+def comprobarPassword(password):
+    miPassWord = "contraseña" 
     
-    if password =
+    if password.lower() == miPassWord.lower():
+        return "Tu contraseña coincide con la mía."
+    else:
+        return "No coincide."
+
+
+def main():
     
-"""
+    password = input("Introduzca contraseña: ")
+    
+    print(comprobarPassword(password))
+
+if __name__ == "__main__":
+    main()

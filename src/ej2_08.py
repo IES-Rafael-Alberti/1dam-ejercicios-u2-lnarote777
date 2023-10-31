@@ -6,3 +6,4 @@ Escribir un programa que lea la puntuación del usuario e indique su nivel de re
 
 
 def cobro():
+    

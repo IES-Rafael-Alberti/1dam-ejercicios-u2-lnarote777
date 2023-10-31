@@ -5,7 +5,6 @@ Escribir un programa que pida al usuario dos números y muestre por pantalla su 
 Si el divisor es cero el programa debe mostrar un error.
 """
 
-
 def division(num1 , num2):
     if num2 == 0:
         return "***ERROR*** - El divisor no puede ser 0."
@@ -20,3 +19,5 @@ def main():
     
 if __name__ == "__main__" :
     main()
+
+    

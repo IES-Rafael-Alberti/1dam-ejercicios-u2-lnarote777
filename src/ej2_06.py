@@ -8,21 +8,19 @@ Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pan
 
 
 def grupo(name, sexo):
-    if sexo == "Mujer" and name < "M"  :
-        return "A"
-    elif sexo == "Hombre" and name > "N" :
+    if (sexo == "Mujer" and name <= "M") or (sexo == "Hombre" and name >= "N"):
         return "A"
     else:
         return "B"
     
     
 def main():
-    nombre = input("Introduzca su nombre: ")
-    genero= input("Introduzca su género: ")
-    nombre= nombre.upper()
-    genero= genero.upper()
-    print("Perteneces al grupo: " + grupo(nombre , genero))
+    name = input("Introduzca su nombre: ")
+    sexo = input("Introduzca su género: ")
+    name= name.upper()
+    sexo= sexo.upper()
+    print("Perteneces al grupo: " , grupo(name, sexo))
     
-
-if __name__ == "__main__":
+    
+if __name__ == "__main__" :
     main()

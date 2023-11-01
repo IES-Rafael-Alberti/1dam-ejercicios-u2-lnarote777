@@ -9,11 +9,20 @@ Si el cliente es menor de 4 años puede entrar gratis, si tiene entre 4 y 18 añ
 
 def cobro(edad):
     entrada1="Gratis"
-    entrada2= 5, "€"
-    entrada3= 10, "€"
+    entrada2= str(5) , "€"
+    entrada3= str(10) , "€"
     if edad < 4 :
         return entrada1
     elif edad > 4 and edad < 18 :
         return entrada2
     elif edad >= 18:
         return entrada3
+    
+
+def main():
+    edad= int(input("Introduzca su edad: "))
+    print(cobro(edad))
+     
+
+if __name__ == "__main__" :
+    main()

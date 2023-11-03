@@ -13,7 +13,7 @@ def inversion(amount, interest, years):
     for i in range(years):
         amount *= 1 + interest / 100
         print("Capital tras " + str(i+1) + " años: " + str(amount) ) 
-    
+    return ""
     
     
 

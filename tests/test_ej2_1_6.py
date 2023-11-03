@@ -1,5 +1,5 @@
 import pytest
-from src.ej2_06 import grupo
+from src.ej2_1_6 import grupo
 
 def test_grupo():
     assert grupo("antonia", "f") == "A"

@@ -1,5 +1,5 @@
 import pytest
-from src.ej2_04 import par
+from src.ej2_1_4 import par
 
 
 def test_par():

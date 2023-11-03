@@ -1,5 +1,5 @@
 import pytest
-from src.ej2_02 import comprobarPassword
+from src.ej2_1_2 import comprobarPassword
 
 
 def test_comprobarPassword():

@@ -1,5 +1,5 @@
 import pytest
-from src.ej2_07 import impositivo
+from src.ej2_1_7 import impositivo
 
 
 def test_impositivo():

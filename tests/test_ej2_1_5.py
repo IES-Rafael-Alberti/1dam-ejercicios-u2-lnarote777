@@ -1,5 +1,5 @@
 import pytest
-from src.ej2_05 import tributar
+from src.ej2_1_5 import tributar
 
 
 def test_tributar():

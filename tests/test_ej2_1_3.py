@@ -1,5 +1,5 @@
 import pytest
-from src.ej2_03 import division
+from src.ej2_1_3 import division
 
 
 def test_division():

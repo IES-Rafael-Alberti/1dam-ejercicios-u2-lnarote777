@@ -5,8 +5,8 @@ Escribir un programa que lea la puntuación del usuario e indique su nivel de re
 """
 
 
-def puntuacion():
-    puntos = float(input("Introduzca su puntuación: "))
+def puntuacion(puntos):
+    
     inaceptable = 0.0
     aceptable = 0.4
     meritorio = 0.6
@@ -30,7 +30,8 @@ def nivel(level , puntos ):
         
         
 def main():
-    print(puntuacion())
+    puntos = float(input("Introduzca su puntuación: "))
+    print(puntuacion(puntos))
     
 
 if __name__ == "__main__":

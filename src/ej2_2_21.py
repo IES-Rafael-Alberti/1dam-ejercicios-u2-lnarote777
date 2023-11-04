@@ -12,7 +12,7 @@ Al finalizar, informar el total a pagar teniendo que cuenta que, si las ventas s
 def monto_total():
     total = 0
     while True:
-        monto = float(input("Monto de una venta (ingrese 0 para finalizar): $"))
+        monto = float(input("Monto de una venta (ingrese 0 para finalizar): "))
         if monto == 0:
             break
         elif monto < 0:
@@ -26,7 +26,7 @@ def monto_total():
 
 
 def main():
-    print("Monto total a pagar: $", monto_total())
+    print("Monto total a pagar: ", monto_total() , "$")
 
 if __name__ == "__main__":
     main()

@@ -6,9 +6,6 @@ y muestre por pantalla el capital obtenido en la inversión cada año que dura l
 """
 
 
-
-
-
 def inversion(amount, interest, years):
     for i in range(years):
         amount *= 1 + interest / 100

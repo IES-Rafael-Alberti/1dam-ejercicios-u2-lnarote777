@@ -8,3 +8,31 @@ Finalmente, informar cuántas líneas completas se ingresaron.
 """
 
 
+def contar_lineas():
+    lineas = 0
+    num = "0123456789"
+    cantidadnum = 0
+
+    while True:
+        libro = input("Libro: ")
+        if libro == "*":
+            break
+        for caracter in libro:
+            if caracter in num:
+                cantidadnum += 1
+        if libro == "/":
+            lineas += 1
+            print("Aparecen", cantidadnum, "dígitos en la línea")
+            cantidadnum = 0
+    return lineas
+
+
+        
+def main():    
+    total_lineas = contar_lineas()
+    print("Se leyeron", total_lineas, "líneas completas")
+    
+    
+if __name__ == "__main__":
+    main()
+

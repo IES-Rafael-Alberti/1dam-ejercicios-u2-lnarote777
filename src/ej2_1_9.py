@@ -9,8 +9,8 @@ Si el cliente es menor de 4 años puede entrar gratis, si tiene entre 4 y 18 añ
 
 def cobro(edad):
     entrada1="Gratis"
-    entrada2= str(5) , "€"
-    entrada3= str(10) , "€"
+    entrada2= f"{5}€"
+    entrada3= f"{10}€"
     if edad < 4 :
         return entrada1
     elif edad > 4 and edad < 18 :
